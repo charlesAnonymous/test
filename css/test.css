@@ -1,0 +1,26 @@
+*{
+    word-spacing:3px;
+    line-height: 1.7em;
+    font-family: yekanbakh-bold;
+}
+@font-face {
+    font-family: yekanbakh-bold;
+    src:url(../fonts/Yekan\ Bakh\ -Bold.ttf)
+}
+.test-box {
+    text-align: center;
+    margin-top: 40px;
+}
+.click,.click2 , .click3{
+    background-color: rgb(175, 174, 174);
+    border:1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    padding:20px 0;
+}
+.dropdown , .dropdown2 , .dropdown3{
+    background-color: rgba(184, 184, 184, 0.575);
+    border:1px solid gray;
+    border-radius: 10px;
+    padding:10px 0;
+}
