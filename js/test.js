@@ -1,0 +1,15 @@
+$(document).ready(function(){
+    $(".click").click(function(){
+      $(".dropdown").slideToggle("2000");
+    });
+  });
+  $(document).ready(function(){
+    $(".click2").click(function(){
+      $(".dropdown2").slideToggle("2000");
+    });
+  });
+  $(document).ready(function(){
+    $(".click3").click(function(){
+      $(".dropdown3").slideToggle("2000");
+    });
+  });
